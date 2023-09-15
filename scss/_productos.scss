@@ -1,0 +1,46 @@
+//productos
+.tituloProductos {
+    background-color:$mainColor;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.tituloProductos h2 {
+    font-size: 3rem;
+}
+
+.card {
+    margin: 1rem;
+    text-align: center;
+}
+
+/*CAROUSEL*/
+
+.imgCarousel {
+    height: 450px;
+    object-fit: cover;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #c1101a;
+    color: white;
+}
+
+.anclas {
+    color: white;
+    font-size: 2rem;
+}
+
+/*Logo WhatsApp*/
+
+.logWhats {
+    width: 100px;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}

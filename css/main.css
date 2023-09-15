@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.btn-gral, .btn-discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 232, 232);
+  padding: 4px 30px;
+  background-color: #c1101a;
+  border-radius: 4px;
+}
+
+.btn-discount {
+  background-color: rgb(21, 21, 21);
+}
+.btn-discount:hover {
+  color: #c1101a;
+}
+
+.contenedor-gral, .contenedor-secondary {
+  width: 100%;
+  padding: 20px 60px;
+  margin: auto;
+  background-image: url(../img/imagen--central.jpg);
+}
+
+.contenedor-secondary {
+  background-image: url(../img/mayonesa.jpg);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#navbarNav .fuentesNav {
+  font-size: 1.4em;
+  padding-left: 3rem;
+}
+#navbarNav .menu {
+  text-decoration: none;
+  background-image: linear-gradient(#c1101a, #c1101a);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+#navbarNav .menu:hover, #navbarNav .menu:focus {
+  background-size: 100% 2px;
+}
+#navbarNav .fuentesNav {
+  font-size: 1.4em;
+  padding-left: 3rem;
+}
+
+.tamLogo {
+  width: 180px;
+}
+
+header {
+  border-bottom: solid 5px #c1101a;
+}
+
+.fondoImg {
+  background-image: url("../img/supe.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fondoImg .tituloPrincipal {
+  color: #c1101a !important;
+}
+.fondoImg .colorBtn {
+  background-color: #c1101a;
+  color: rgb(241, 232, 232);
+  font-size: 1.4em;
+  margin: 5px;
+}
+.fondoImg .colorBtn:hover {
+  background-color: #c1101a;
+  color: rgb(241, 232, 232);
+}
+
+.btn-fixed {
+  position: fixed;
+  left: 80px;
+  top: 100px;
+}
+
+.box-sticky {
+  position: sticky;
+  left: 400px;
+  top: 500px;
+}
+
+.tituloProductos {
+  background-color: #c1101a;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.tituloProductos h2 {
+  font-size: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  text-align: center;
+}
+
+/*CAROUSEL*/
+.imgCarousel {
+  height: 450px;
+  object-fit: cover;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #c1101a;
+  color: white;
+}
+
+.anclas {
+  color: white;
+  font-size: 2rem;
+}
+
+/*Logo WhatsApp*/
+.logWhats {
+  width: 100px;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
